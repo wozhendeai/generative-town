@@ -1,0 +1,10 @@
+# Environment variables
+
+.env
+node_modules
+
+# Output
+src/agent/output
+
+# macOS
+.DS_Store
