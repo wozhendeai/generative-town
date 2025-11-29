@@ -40,12 +40,6 @@ export async function executeGroundPhase(
     throw new Error('No ground sprites found in metadata');
   }
 
-  // Build quadrant examples using available sprites (cycle through if fewer than 4)
-  const quadrantExamples = [0, 1, 2, 3].map((i) => {
-    const spriteId = groundSprites[i % groundSprites.length];
-    return spriteId;
-  });
-
   const systemPrompt = buildGroundPrompt(width, height, metadata, sceneDescription);
 
   const result = streamText({
@@ -55,13 +49,18 @@ export async function executeGroundPhase(
     stopWhen: stepCountIs(10),
     prompt: `Fill the entire ${width}x${height} map with ground tiles.
 
-APPROACH: Fill in quadrants for visual variety:
-- fillGround(0, 0, ${Math.floor(width / 2) - 1}, ${Math.floor(height / 2) - 1}, "${quadrantExamples[0]}")     <- Top-left
-- fillGround(${Math.floor(width / 2)}, 0, ${width - 1}, ${Math.floor(height / 2) - 1}, "${quadrantExamples[1]}")        <- Top-right
-- fillGround(0, ${Math.floor(height / 2)}, ${Math.floor(width / 2) - 1}, ${height - 1}, "${quadrantExamples[2]}")     <- Bottom-left
-- fillGround(${Math.floor(width / 2)}, ${Math.floor(height / 2)}, ${width - 1}, ${height - 1}, "${quadrantExamples[3]}")       <- Bottom-right
+First, analyze the available ground sprites listed in your context. Consider:
+1. Which tiles best match the scene's primary areas (centers, plazas)?
+2. Which tiles work for edges/borders (forest edges, corners)?
+3. Any hazardous tiles (water, etc.) to use sparingly?
 
-This ensures 100% ground coverage with visual variety.`,
+Then create zones using fillGround calls:
+- Think in REGIONS, not individual tiles
+- Use different sprites for distinct visual zones
+- Ensure 100% coverage (no black void)
+- Match the atmosphere in the WORLD VISION
+
+Use viewMap("ground") to verify full coverage.`,
   });
 
   await result.text;
