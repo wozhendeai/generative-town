@@ -1,0 +1,592 @@
+{
+  "width": 10,
+  "height": 10,
+  "layers": {
+    "ground": [
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "flagstone_plaza_tile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "flagstone_plaza_tile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_corner_se",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_corner_sw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_shattered",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_shattered",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "flagstone_plaza_tile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "flagstone_plaza_tile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_shattered",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_shattered",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "flagstone_plaza_tile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_corner_sw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_shattered",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_shattered",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_corner_ne",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "cobblestone_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dirt_path_with_ruts",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dirt_path_with_ruts",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "clear_stream_bed",
+          "layer": "ground"
+        },
+        {
+          "assetId": "clear_stream_bed",
+          "layer": "ground"
+        },
+        {
+          "assetId": "muddy_patch_with_straw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dirt_path_with_ruts",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dirt_path_with_ruts",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "clear_stream_bed",
+          "layer": "ground"
+        },
+        {
+          "assetId": "clear_stream_bed",
+          "layer": "ground"
+        },
+        {
+          "assetId": "muddy_patch_with_straw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dirt_path_with_ruts",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dirt_path_with_ruts",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "packed_dirt_path",
+          "layer": "ground"
+        },
+        {
+          "assetId": "muddy_patch_with_straw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "muddy_patch_with_straw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "muddy_patch_with_straw",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "wildflower_grass_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "dense_moss_ground_cover",
+          "layer": "ground"
+        }
+      ]
+    ],
+    "objects": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "muddy_rain_puddle",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "stout_boar_tavern",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "commoners_thatched_cottage",
+          "layer": "object"
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "assetId": "two_wheeled_hay_cart",
+          "layer": "object"
+        },
+        {
+          "assetId": "terracotta_water_pitcher",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "tree_stump_with_mushrooms",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "tool_rack_farming",
+          "layer": "object"
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "assetId": "heavy_oak_bench",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "village_elders_house",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "blacksmiths_open_forge",
+          "layer": "object"
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "mossy_fieldstone_single",
+          "layer": "object"
+        },
+        null,
+        null,
+        {
+          "assetId": "burlap_sack_of_potatoes",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "stacked_chopped_firewood",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "blacksmiths_anvil_on_stump",
+          "layer": "object"
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  }
+}

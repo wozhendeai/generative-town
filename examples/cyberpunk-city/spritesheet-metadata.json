@@ -1,0 +1,972 @@
+{
+  "theme": "Here is a detailed scene description for the \"cybe",
+  "tileSize": 256,
+  "columns": 8,
+  "rows": 8,
+  "sprites": [
+    {
+      "id": "asphalt_road_horizontal",
+      "category": "ground",
+      "col": 0,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A faded white lane marker runs horizontally across the middle, interrupted by a network of fine cracks. The surface has a subtle, oily sheen reflecting a magenta neon glow from an unseen source.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "path",
+        "connects": [
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_road_vertical",
+      "category": "ground",
+      "col": 1,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A worn yellow lane marker runs vertically through the tile. A small, circular pothole filled with dark water is situated on the right side, distorting reflections.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "path",
+        "connects": [
+          "north",
+          "south"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_corner_ne",
+      "category": "ground",
+      "col": 2,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A faded white line curves from the south edge to the west edge, forming a corner. A small puddle in the top-right corner reflects a cyan light.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "north",
+          "east"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_corner_nw",
+      "category": "ground",
+      "col": 3,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A faded white line curves from the south edge to the east edge, forming a corner. The surface is heavily cracked in the top-left quadrant.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "north",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_corner_se",
+      "category": "ground",
+      "col": 4,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A faded white line curves from the north edge to the west edge, forming a corner. A patch of gritty sand and debris is collected in the bottom-right.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "south",
+          "east"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_corner_sw",
+      "category": "ground",
+      "col": 5,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A faded white line curves from the north edge to the east edge, forming a corner. An iridescent oil slick spreads from the bottom-left corner.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "south",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_intersection_4_way",
+      "category": "ground",
+      "col": 6,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. Faded white lines enter from all four sides, showing heavy wear at the central intersection point. The center is darker and more worn than the edges.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "intersection",
+        "connects": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "asphalt_t_junction_south",
+      "category": "ground",
+      "col": 7,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of wet, dark gray asphalt. A faded white line comes from the south and splits, heading both west and east. The asphalt at the junction point is severely cracked.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "intersection",
+        "connects": [
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "wet_asphalt_pothole",
+      "category": "ground",
+      "col": 0,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A tile of cracked, dark gray asphalt slick with rain. An irregular pothole in the center is filled with oily, iridescent water that reflects a sickly cyan glow from above. A discarded chrome bolt lies near the edge.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "metal_grate_walkway",
+      "category": "ground",
+      "col": 1,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A dark, rusty metallic grating with rectangular slots, showing a deep indigo abyss below. One corner of the grating is bent upwards slightly. Steam clings to the metal bars.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "discarded_ewaste_pile",
+      "category": "ground",
+      "col": 2,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A heap of electronic waste covering the ground. Visible components include a cracked monitor screen (dark), a tangle of multi-colored wires, and the corner of a rusted metal computer casing.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "grimy_concrete_sidewalk",
+      "category": "ground",
+      "col": 3,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a worn, stained concrete slab. A long, dark stain from fluid runoff cuts diagonally across the tile. The edges are chipped, revealing the darker aggregate underneath.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "uneven_asphalt_patch",
+      "category": "ground",
+      "col": 4,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A patch of dark gray asphalt that has been poorly repaired. The surface is bumpy and uneven, with a clear seam where the new asphalt meets the old. Small weeds grow in the seam.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "damaged_concrete_exposed_rebar",
+      "category": "ground",
+      "col": 5,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A square of heavily damaged concrete sidewalk. A large section has crumbled away, exposing a grid of rusty rebar. Dark, grimy water has pooled in the depression.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "bioluminescent_fungus_ground",
+      "category": "ground",
+      "col": 6,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A patch of damp, dark earth where a small cluster of sickly, bioluminescent fungus grows. The mushroom-like growths emit a soft, pulsing cyan light.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "toxic_coolant_spill",
+      "category": "ground",
+      "col": 7,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A puddle of hazardous, glowing liquid spread across the ground. The liquid is a bright, sickly cyan and bubbles slowly, emitting a faint vapor. The ground beneath it appears corroded.",
+      "placement": {
+        "layer": "ground",
+        "walkable": false,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "omnicorp_data_haven",
+      "category": "building",
+      "col": 0,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 brutalist concrete building facade. The ground floor has a heavily reinforced steel door with a glowing magenta keypad. Above it, a massive, glitching holographic sign displays the 'OmniCorp' logo. Thick bundles of armored data-cables snake up the right wall. The flat roof is lined with communication antennae. Shadow casts to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "back_alley_cybernetics_clinic",
+      "category": "building",
+      "col": 2,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 building front made of rusted corrugated metal bolted over old concrete. A single window on the second story glows with a sickly cyan light. A holographic sign of a caduceus flickers over the entrance. A large, slowly rotating ventilation fan is embedded in the wall. Shadow casts to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "synth_noodle_bar",
+      "category": "building",
+      "col": 4,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 shop built from a repurposed shipping container, painted deep indigo. A roll-up metal window is open, revealing a counter. A bright magenta neon sign in Japanese Katakana for 'Ramen' flickers above. Steam billows from a vent on its flat roof. Shadow casts to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "power_substation_utility",
+      "category": "building",
+      "col": 6,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 concrete utility building, windowless and covered in warning signs in English and Japanese with dirty gold lettering. An external junction box on the front has its cover ripped off, revealing a mess of wires that occasionally spark with cyan electricity. A thick power conduit runs from the roof downwards. Shadow casts to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "flickering_magenta_hologram",
+      "category": "prop",
+      "col": 0,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A holographic advertisement projector on a short, thick metal post. It projects a flickering, electric magenta image of a geisha that glitches periodically. The projector base is stained and casts a magenta glow on the ground.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "translucent_trash_bag",
+      "category": "prop",
+      "col": 1,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "An overfilled, semi-translucent plastic trash bag. The silhouettes of discarded synth-food containers and old circuit boards are visible inside. A small puddle of murky water has collected around its base.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "stacked_rusty_cargo_crates",
+      "category": "prop",
+      "col": 2,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "Two large, rusted metal cargo crates stacked unevenly to serve as a makeshift bench. The top crate has a 'Bio-Gene' corporate logo stenciled on its side, now mostly obscured by graffiti. Shadow at the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "holographic_koi_advert",
+      "category": "prop",
+      "col": 3,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A small, floor-mounted projector emitting a looping animation of three holographic koi fish in sickly cyan. The fish 'swim' in a small circle about waist-high. The projector casing is scratched.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "exposed_power_junction_box",
+      "category": "prop",
+      "col": 4,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A metallic, boxy power junction on the ground, its cover pried open. A chaotic tangle of wires is visible inside, and one frayed cable emits small, intermittent sparks of cyan electricity.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "discarded_security_drone",
+      "category": "prop",
+      "col": 5,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A spider-like security drone lying on its side. Its metallic chassis is dented and scratched. Its single large optical lens is cracked, but still emits a faint, pulsing red light. One of its six legs is bent at an unnatural angle.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "low_hanging_cable_bundle",
+      "category": "prop",
+      "col": 6,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A thick bundle of multicolored data and power cables, drooping from a high anchor point off-screen to just above head height. Water drips from the lowest point of the bundle. The cables are wrapped with black electrical tape in several places.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wall_mounted_ventilation_fan",
+      "category": "prop",
+      "col": 7,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A large, cylindrical ventilation fan mounted to an unseen wall. Its grimy, rusted blades rotate slowly, intermittently puffing out a small cloud of white steam. A warning label in dirty gold is peeling off the casing.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "resilient_bonsai_tree",
+      "category": "prop",
+      "col": 0,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A single, resilient bonsai tree with unnaturally glossy, dark green leaves, planted in a cracked ceramic pot. The pot sits on the ground, a small symbol of defiant nature in the urban decay.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "glowing_fungal_growth",
+      "category": "prop",
+      "col": 1,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A low, dense clump of sickly bioluminescent fungus growing in a damp corner. It resembles a small bush, with several mushroom-like stalks glowing with a steady, eerie cyan light.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "potted_cyber_fern",
+      "category": "prop",
+      "col": 2,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A large, potted plant with metallic, segmented leaves that mimic a fern. The leaves have glowing magenta veins. The pot is made of dark, chipped polymer.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "scattered_data_chips",
+      "category": "prop",
+      "col": 3,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A small pile of discarded data chips and broken circuit board fragments scattered on the ground. A few of the chips still faintly glimmer with a residual cyan light.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "chipped_concrete_block",
+      "category": "prop",
+      "col": 4,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A single, rectangular concrete block, likely debris from a building. It's heavily weathered, with chipped corners and a dark stain running down one side.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ewaste_boulder",
+      "category": "prop",
+      "col": 5,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A large, dense pile of compacted e-waste and scrap metal that has fused together, forming a boulder-like obstruction. Rusted metal plates and tangled wires are visible on its surface.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "iridescent_puddle",
+      "category": "prop",
+      "col": 6,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A large, shallow puddle of rainwater with an oily, iridescent film on its surface. It vividly reflects the electric magenta and sickly cyan glow of unseen neon signs from above.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "slimy_indigo_moss",
+      "category": "prop",
+      "col": 7,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A patch of slimy, dark indigo moss growing in the damp crevice between two paving stones. It seems to absorb the light, appearing almost black except for a few wet highlights.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "omnicorp_supply_crate",
+      "category": "prop",
+      "col": 0,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A scuffed, dark polymer cargo crate with the OmniCorp logo stenciled in faded gold on its top and front-facing side. The lid is secured with heavy-duty metal clasps. Casts a shadow to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "corroded_coolant_drum",
+      "category": "prop",
+      "col": 1,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A rusted, metallic gold drum with a biohazard symbol painted on the side. A trickle of sickly cyan coolant has leaked from a seam near the bottom, staining the ground around it.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "overflowing_ewaste_dumpster",
+      "category": "prop",
+      "col": 2,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A large, wheeled dumpster made of dented, dark metal. It's overflowing with discarded tech, including broken monitors, tangled cables, and chrome casings that spill onto the ground.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "stacked_synth_food_containers",
+      "category": "prop",
+      "col": 3,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A precarious stack of five empty, grey synth-food containers. The containers are cube-shaped with faded nutritional information labels. The stack leans slightly to one side.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "traffic_cone_holographic",
+      "category": "prop",
+      "col": 4,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A dirty, metallic gold traffic cone. Instead of being solid orange, it projects a flickering, translucent magenta cone of light above its base, creating a high-tech warning marker.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "makeshift_metal_barricade",
+      "category": "prop",
+      "col": 5,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A makeshift barricade constructed from a large sheet of rusted corrugated metal, held up by two cinder blocks. Graffiti depicting a chrome skull has been sprayed on it in cyan paint.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "steaming_manhole_cover",
+      "category": "prop",
+      "col": 6,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A heavy, circular iron manhole cover with a complex geometric pattern. Plumes of thick white steam intermittently vent from its edges, dissipating into the air.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "graffiti_chrome_skulls",
+      "category": "prop",
+      "col": 7,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A large piece of graffiti spray-painted directly onto the ground. It depicts a stylized chrome skull with magenta eyes, the tag of the 'Chrome Skulls' gang.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "glowing_drink_vending_machine",
+      "category": "prop",
+      "col": 0,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A tall, dark vending machine with a large, bright magenta screen displaying glitching Japanese text. Through a grime-streaked window, oddly shaped cans glowing with cyan liquid are visible. Casts a shadow to its bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "public_data_terminal",
+      "category": "prop",
+      "col": 1,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A freestanding data terminal with a cracked, flickering cyan touchscreen. The metal casing is covered in scratches and graffiti. A frayed data-cable hangs loosely from a port on its side.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "broken_corporate_statue",
+      "category": "prop",
+      "col": 2,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "The broken remnant of a corporate statue: a bronze-colored boot and ankle on a small concrete plinth. The rest of the statue is gone. The name 'OmniCorp' is barely legible on the plinth.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "water_purifier_fountain",
+      "category": "prop",
+      "col": 3,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A public water station, consisting of a chunky, metallic pillar with a glowing spigot. A constant drip of supposedly clean water falls into a small, grated basin at the bottom. The unit hums loudly.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "black_market_stall",
+      "category": "prop",
+      "col": 4,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A small market stall made from scrap metal and a tattered indigo tarp for an awning. The counter displays various pieces of scavenged cybernetics, including a chrome hand and a glowing optical sensor.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "hover_delivery_cart",
+      "category": "prop",
+      "col": 5,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A small, wheeled delivery cart with hover pads that are currently inactive. The cart is loaded with several sealed, gray containers. It's parked haphazardly, partially blocking a path.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "parked_utility_scooter",
+      "category": "prop",
+      "col": 6,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A small, single-person utility scooter, parked with its kickstand down. It's painted a chipped, dirty gold color. A single, large magenta headlight faces forward. A small shadow is cast to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "cybernetic_limb_rack",
+      "category": "prop",
+      "col": 7,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A freestanding metal rack holding several second-hand cybernetic arms. The arms are in various states of repair, from polished chrome to rusted and incomplete. One arm has fingers that twitch intermittently.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    }
+  ],
+  "sceneDescription": "Here is a detailed scene description for the \"cyberpunk city\" theme.\n\n---\n\n### Scene: Neo-Kyoto's Umbral Alley\n\nThis scene depicts a tight, bustling back-alley market in the lower sectors of Neo-Kyoto, a place where black market cybernetics, illicit data, and steaming bowls of synthetic noodles are all for sale under the perpetual twilight of the corporate arcologies above.\n\n### 1. VISUAL IDENTITY\n*   **Primary Color Palette:**\n    *   Deep Indigo (#1A234A): The base color for shadows, deep puddles, and the sliver of night sky visible between towering buildings.\n    *   Electric Magenta (#FF00E0): The dominant color of neon signage, holographic ads, and glowing cybernetic interfaces.\n    *   Sickly Cyan (#00FFFF): A secondary neon color used for medical bay signs, data-stream projections, and hazardous liquid spills.\n*   **Secondary/Accent Colors:** A dirty, metallic gold (#B8A400) for warning signs and some logos. A deep, wet-asphalt gray (#333333).\n*   **Overall Mood and Atmosphere:** Oppressive and claustrophobic, yet vibrantly alive. The mood is \"electric gloom\"—a constant sense of dampness and decay punctuated by blinding flashes of high technology. It feels dangerous but full of energy and opportunity.\n*   **Lighting Conditions:** Perpetual night, illuminated almost entirely by artificial, diegetic light sources. A constant, light drizzle falls, making every surface slick and reflective. The primary light comes from pulsating, flickering neon signs written in Japanese Katakana and English. Holographic advertisements for cyber-arms and data havens cast shifting, colored light onto the ground and walls.\n\n### 2. ARCHITECTURE\n*   **Building Styles and Materials:** A chaotic fusion of old and new. The base structures are pockmarked, brutalist concrete from a bygone era, now almost completely obscured by layers of haphazard additions. These include rusted corrugated metal sheets, sleek dark-polymer panels bolted directly onto the concrete, and external life-support systems.\n*   **Structural Characteristics:** Aggressively vertical and angular. Buildings lean into one another, creating a narrow canyon of an alley. There are no gentle curves. Rickety metal catwalks and external staircases crisscross the space several stories up, connecting different buildings.\n*   **Scale and Proportions:** The buildings are immense and loom over the player, who will feel small and insignificant. Doorways are standard size, but are often recessed into the grimy walls, framed by thick bundles of cables. Massive, humming ventilation units are embedded in the walls far above character height.\n*   **Distinctive Architectural Features:** Exposed, thick conduits and data-cables snake up the building faces like metallic ivy. Some windows are traditional glass, streaked with grime, while others are digital screens displaying looping, glitching advertisements. Occasional Kanji characters are spray-painted as graffiti over corporate logos.\n\n### 3. GROUND SURFACES\n*   **Road/Path Materials:** The main path is cracked, dark gray asphalt. It's uneven and riddled with potholes filled with an oily, iridescent rainwater that vividly reflects the neon glow from above.\n*   **Walkable Urban Surfaces:** The main path is bordered by raised metal gratings that cover a deep, dark drainage channel below. Steam periodically vents up through these grates. Patches of worn-down concrete sidewalk are visible where the gratings have been removed or damaged.\n*   **Decorative Terrain:** Piles of discarded e-waste are heaped in corners: cracked monitors, tangled nests of fiber-optic cables, and scavenged chrome casings. Overflowing, translucent trash bags reveal discarded synth-food containers and old circuit boards.\n*   **Hazardous Areas:** The oily puddles are purely aesthetic, but certain exposed power junctions on the ground will intermittently spark with blue electricity, creating a small, temporary hazard zone. Some pools of liquid glow with the sickly cyan of toxic coolant runoff.\n\n### 4. PROPS & OBJECTS\n*   **Street Furniture:** No traditional benches. Seating consists of stacked, rusty cargo crates or overturned buckets. Street food stalls are constructed from repurposed shipping containers, with holographic menus displaying ramen bowls and skewers. Vending machines with brightly lit fronts dispense strange, glowing energy drinks in oddly shaped cans.\n*   **Infrastructure:** Thick bundles of multicolored cables are strung overhead, drooping low in the center of the alley. Large, cylindrical ventilation fans are set into the walls, slowly rotating and puffing out clouds of white steam. Junction boxes with covers pried off reveal a chaotic tangle of wires.\n*   **Vegetation and Natural Elements:** Life struggles to exist here. The only \"natural\" elements are patches of sickly, bioluminescent fungus growing in damp corners and a single, resilient bonsai tree in a ceramic pot on a vendor's stall, its leaves unnaturally glossy.\n*   **Interactive/Atmospheric Objects:** A discarded, spider-like security drone lies on its side, its single red optical lens cracked. Holographic koi fish, part of an advertisement for a data haven, \"swim\" through the air in a repeating pattern. Manhole covers intermittently release plumes of thick, white steam that dissipate into the rain.\n\n### 5. WORLD FLAVOR\n*   **Cultural or Era Influences:** Heavily influenced by 1980s Japanese cyberpunk aesthetics and the real-world density of places like the former Kowloon Walled City. The mix of English and Japanese on signs suggests a fusion of cultures in this mega-city.\n*   **Technology Level:** High-tech, low-life. Advanced technology like personal cybernetics and sentient A.I. is commonplace but is often malfunctioning, jury-rigged, or sold on the black market. The aesthetic is functional and gritty, not sleek or sterile.\n*   **Environmental Storytelling:** Graffiti from local gangs (\"The Vipers,\" \"Chrome Skulls\") is sprayed over the logos of monolithic corporations (\"OmniCorp,\" \"Bio-Gene\"). The density of cybernetic repair shops and back-alley clinics hints that physical augmentation is a dangerous and necessary part of life in the lower sectors. The sheer volume of discarded tech tells a story of rampant consumerism and planned obsolescence.\n*   **Unique Distinguishing Features:** The air itself feels heavy with data. Occasionally, the player's view could be overlaid with a split-second of visual \"static\" or a glitching data fragment, as if stray signals are constantly bombarding them. This makes the environment feel actively hostile and digitally saturated."
+}

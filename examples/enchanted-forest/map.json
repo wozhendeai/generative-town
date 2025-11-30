@@ -1,0 +1,604 @@
+{
+  "width": 10,
+  "height": 10,
+  "layers": {
+    "ground": [
+      [
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_corner_nw_spores",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_corner_ne_pebbles",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_moss_carpet_verdant",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_corner_ne_pebbles",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_corner_nw_spores",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_path_compacted_earth",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_intersection_four_way",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_horizontal_root",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "path_earth_vertical_glow",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_roots_and_stones",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        },
+        {
+          "assetId": "ground_ruin_flagstone_cracked",
+          "layer": "ground"
+        }
+      ]
+    ],
+    "objects": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "ruin_spire_base_2x2",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "prop_fountain_moss_cascade",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        {
+          "assetId": "ruin_curved_wall_2x2",
+          "layer": "object"
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "prop_mossy_river_stone",
+          "layer": "object"
+        },
+        {
+          "assetId": "prop_bellflower_chiming",
+          "layer": "object"
+        },
+        null,
+        null,
+        {
+          "assetId": "prop_mossy_river_stone",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "prop_dormant_mossy_beast",
+          "layer": "object"
+        },
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "prop_twisted_branch_rack",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "prop_bellflower_chiming",
+          "layer": "object"
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "prop_broken_urn_fern",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        {
+          "assetId": "prop_stacked_ruin_stones",
+          "layer": "object"
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "ruin_circular_chamber_2x2",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "prop_crystal_shard_barrier",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        {
+          "assetId": "ruin_aqueduct_bridge_2x2",
+          "layer": "object"
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "prop_whispering_horn_flower",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "prop_ruin_bench_crescent",
+          "layer": "object"
+        },
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "prop_mossy_river_stone",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "prop_mossy_river_stone",
+          "layer": "object"
+        },
+        null,
+        null
+      ]
+    ]
+  }
+}

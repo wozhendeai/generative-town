@@ -1,0 +1,598 @@
+{
+  "width": 10,
+  "height": 10,
+  "layers": {
+    "ground": [
+      [
+        {
+          "assetId": "asphalt_corner_se",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_corner_sw",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "grimy_concrete_sidewalk",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "metal_grate_walkway",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_t_junction_south",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_intersection_4_way",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "damaged_concrete_exposed_rebar",
+          "layer": "ground"
+        },
+        {
+          "assetId": "damaged_concrete_exposed_rebar",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "toxic_coolant_spill",
+          "layer": "ground"
+        },
+        {
+          "assetId": "toxic_coolant_spill",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "toxic_coolant_spill",
+          "layer": "ground"
+        },
+        {
+          "assetId": "toxic_coolant_spill",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_road_vertical",
+          "layer": "ground"
+        },
+        {
+          "assetId": "bioluminescent_fungus_ground",
+          "layer": "ground"
+        },
+        {
+          "assetId": "bioluminescent_fungus_ground",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "discarded_ewaste_pile",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        },
+        {
+          "assetId": "uneven_asphalt_patch",
+          "layer": "ground"
+        }
+      ],
+      [
+        {
+          "assetId": "asphalt_corner_ne",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_road_horizontal",
+          "layer": "ground"
+        },
+        {
+          "assetId": "asphalt_corner_nw",
+          "layer": "ground"
+        }
+      ]
+    ],
+    "objects": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "graffiti_chrome_skulls",
+          "layer": "object"
+        },
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "omnicorp_data_haven",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "public_data_terminal",
+          "layer": "object"
+        },
+        null,
+        null,
+        {
+          "assetId": "cybernetic_limb_rack",
+          "layer": "object"
+        },
+        {
+          "assetId": "back_alley_cybernetics_clinic",
+          "layer": "object"
+        },
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "assetId": "low_hanging_cable_bundle",
+          "layer": "object"
+        },
+        null,
+        null,
+        {
+          "assetId": "translucent_trash_bag",
+          "layer": "object"
+        },
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "discarded_security_drone",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        {
+          "assetId": "stacked_rusty_cargo_crates",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "wall_mounted_ventilation_fan",
+          "layer": "object"
+        },
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "synth_noodle_bar",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "glowing_drink_vending_machine",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        {
+          "assetId": "power_substation_utility",
+          "layer": "object"
+        },
+        null,
+        {
+          "assetId": "iridescent_puddle",
+          "layer": "object"
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        {
+          "assetId": "stacked_synth_food_containers",
+          "layer": "object"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "assetId": "ewaste_boulder",
+          "layer": "object"
+        },
+        null,
+        null
+      ]
+    ]
+  }
+}

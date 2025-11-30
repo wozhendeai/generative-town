@@ -1,0 +1,972 @@
+{
+  "theme": "Here is a detailed scene description for the theme",
+  "tileSize": 256,
+  "columns": 8,
+  "rows": 8,
+  "sprites": [
+    {
+      "id": "path_earth_horizontal_root",
+      "category": "ground",
+      "col": 0,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted dark earth path running horizontally. A thick, gnarled root, dark brown with patches of verdant moss, snakes across the tile from left to right.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "path",
+        "connects": [
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "path_earth_vertical_glow",
+      "category": "ground",
+      "col": 1,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted dark earth path running vertically. Patches of soft, glowing blue-green moss line the right edge of the path, casting a faint cyan light.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "path",
+        "connects": [
+          "north",
+          "south"
+        ]
+      }
+    },
+    {
+      "id": "path_corner_ne_pebbles",
+      "category": "ground",
+      "col": 2,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted earth path turning from the bottom edge to the left edge. In the empty top-right corner, a cluster of three small, smooth stones glow with a soft magenta light.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "north",
+          "east"
+        ]
+      }
+    },
+    {
+      "id": "path_corner_nw_spores",
+      "category": "ground",
+      "col": 3,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted earth path turning from the bottom edge to the right edge. The empty top-left corner is covered in deep green moss with a puff of pale cyan spores settled on it.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "north",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "path_corner_se_flagstone",
+      "category": "ground",
+      "col": 4,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted earth path turning from the top edge to the left edge. The empty bottom-right corner has a single, cracked piece of a pale white flagstone embedded in the mossy ground.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "south",
+          "east"
+        ]
+      }
+    },
+    {
+      "id": "path_corner_sw_archroot",
+      "category": "ground",
+      "col": 5,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted earth path turning from the top edge to the right edge. The curve of the path is defined by a large, flat root that arches through the empty bottom-left corner.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "south",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "path_intersection_four_way",
+      "category": "ground",
+      "col": 6,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a four-way intersection of compacted earth paths. The center is slightly worn, revealing hints of an ancient gold mosaic pattern beneath the dirt.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "intersection",
+        "connects": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "path_t_junction_north",
+      "category": "ground",
+      "col": 7,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a compacted earth path running horizontally, with a third path branching upwards. A small, moss-covered runestone sits in the grass at the bottom edge, marking the junction.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "intersection",
+        "connects": [
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "ground_forest_floor_primary",
+      "category": "ground",
+      "col": 0,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of the forest floor, a rich loamy soil of twilight teal and dark green, covered in a thick carpet of verdant moss and crisscrossed by tiny, thread-like roots.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_ruin_flagstone_cracked",
+      "category": "ground",
+      "col": 1,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a tiled ruin floor. Large, pale white flagstones are cracked and tilted at odd angles, with deep green moss and dark soil filling the wide gaps between them.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_moss_bioluminescent",
+      "category": "ground",
+      "col": 2,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a dense, plush carpet of bioluminescent moss. It's primarily a twilight teal color, but pulses with soft waves of pale cyan light.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_path_compacted_earth",
+      "category": "ground",
+      "col": 3,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a simple desire path. The ground is dark, compacted earth, mostly clear but with a few scattered, shield-sized waxy green leaves.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_roots_and_stones",
+      "category": "ground",
+      "col": 4,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of uneven, rough terrain. A web of thick, gnarled roots covers the tile, with small, mossy river-stones filling the gaps between them.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_ruin_flagstone_shattered",
+      "category": "ground",
+      "col": 5,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a single large, pale white flagstone that is heavily damaged. A large spiderweb of cracks radiates from the center, and the entire top-right corner is missing, revealing loamy soil.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_moss_carpet_verdant",
+      "category": "ground",
+      "col": 6,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a thick, uniform carpet of deep verdant green moss. It looks soft and damp, with several tiny, luminous magenta mushroom caps poking through.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ground_hazard_river_of_stars",
+      "category": "ground",
+      "col": 7,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of the River of Stars. A viscous, deep teal liquid flows slowly across the tile, filled with glittering particles of ancient gold and luminous magenta that swirl in a galactic pattern.",
+      "placement": {
+        "layer": "ground",
+        "walkable": false,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ruin_spire_base_2x2",
+      "category": "building",
+      "col": 0,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "The 2x2 base of a cyclopean ruined spire made of pale, moss-dusted stone. A massive, curved archway forms a gaping entrance on the south face, choked with thick, python-like roots. Faint, swirling golden patterns are visible on the stone surface.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ruin_curved_wall_2x2",
+      "category": "building",
+      "col": 2,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 section of a crumbling, curved ruin wall in pale white stone. A tall, arched window frame on the front face is filled with shattered, multi-faceted crystals that refract ambient light. Thick verdant moss hangs from the top edge.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ruin_circular_chamber_2x2",
+      "category": "building",
+      "col": 4,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 crumbling, circular ruin with no roof. The pale stone walls are waist-high, except on the south side which features a low, arched entrance, partially blocked by a large, mossy, fallen stone block.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "ruin_aqueduct_bridge_2x2",
+      "category": "building",
+      "col": 6,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A 2x2 section of a broken, ancient aqueduct made of massive pale stone blocks. It forms a raised platform, its front face covered in tiered clusters of small, glowing magenta Glimmerwood Fungi. The top surface is flat and covered in moss.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_glimmerwood_fungi_cluster",
+      "category": "prop",
+      "col": 0,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A cluster of three tall, slender fungi on a mossy base. Their pale stalks lead to wide, flat caps that pulse with a gentle, luminous magenta light, casting a soft glow downwards and to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_broken_urn_fern",
+      "category": "prop",
+      "col": 1,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "The moss-covered, broken lower half of a pale stone ruin urn. It is filled with dark soil from which a single, delicate Crystal Fern sprouts, its fronds glittering with pale cyan light.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_ruin_bench_crescent",
+      "category": "prop",
+      "col": 2,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A crescent-shaped bench carved from a single piece of smooth, pale white stone. The entire seat is covered in a thick, inviting layer of deep verdant moss. A shadow is cast towards the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_runestone_marker",
+      "category": "prop",
+      "col": 3,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A tall, weathered slab of pale stone, tilted slightly to the left. A swirling, ancient glyph is carved into its face, glowing with a constant, faint pale cyan light.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_pulsating_spore_pod",
+      "category": "prop",
+      "col": 4,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A waist-high, bulbous plant pod, deep magenta with glowing twilight teal veins. It rests on a bed of leaves and gently swells and contracts, casting a faint magenta glow.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_ethereal_snail_glowing",
+      "category": "prop",
+      "col": 5,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A large, translucent snail, its body faintly shimmering. Its spiral shell glows brightly with an inner pale cyan light. It appears to be crawling slowly up an invisible surface, casting a cyan glow below.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_giant_root_archway",
+      "category": "prop",
+      "col": 6,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A colossal, gnarled root from a silver-barked tree, covered in moss. It arches high out of the ground on the left and plunges back in on the right, forming a natural archway.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_hanging_phosphor_vines",
+      "category": "prop",
+      "col": 7,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A thick curtain of hanging phosphorescent vines, designed to be placed against a wall. The vines glow a faint teal, and are dotted with tiny, bell-shaped flowers of luminous magenta.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_bellflower_chiming",
+      "category": "prop",
+      "col": 0,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A single, large, drooping Bellflower plant. Its thick green stalk supports a flower with heavy, deep purple-magenta petals that hang down like a bell. It has a shadow to the bottom right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_thorny_vine_thicket",
+      "category": "prop",
+      "col": 1,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A dense, impassable thicket of coiled, thorny vines. The vines are a vibrant magenta color with wicked-looking black thorns, forming a round, bushy shape.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_crystal_fern_cluster",
+      "category": "prop",
+      "col": 2,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A cluster of knee-high Crystal Ferns. Their stalks are deep teal, but their delicate fronds have a crystalline structure that glitters and refracts light with a pale cyan sheen.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_fallen_giant_leaves",
+      "category": "prop",
+      "col": 3,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A scattered pile of three massive, fallen leaves. Each is the size of a shield, with a waxy, deep green texture and prominent teal veins. They are layered on top of each other.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_mossy_river_stone",
+      "category": "prop",
+      "col": 4,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A single, perfectly smooth, round stone, like one from a riverbed. It is completely covered in a thick, uniform blanket of deep verdant moss, with a small shadow to the bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_fallen_pillar_fragment",
+      "category": "prop",
+      "col": 5,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A large, cylindrical fragment from a fallen ruin pillar, made of pale stone. It lies tilted, half-buried in the mossy ground, with faded ancient gold patterns visible on its exposed surface.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_shimmering_mercury_pool",
+      "category": "prop",
+      "col": 6,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A small, perfectly still, circular pool of liquid that looks like shimmering mercury. Its surface reflects the magical twilight with a swirling, iridescent rainbow sheen.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_giant_shelf_fungus",
+      "category": "prop",
+      "col": 7,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A single, massive shelf-like Glimmerwood fungus, projecting from an unseen surface. It grows in tiered layers and emits a strong, luminous magenta glow from its underside.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_hollow_log_storage",
+      "category": "prop",
+      "col": 0,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "An ancient, hollow log from a silver-barked tree, lying on its side. Its dark, hollowed-out interior contains a small collection of spherical stones that glow with a soft, pale cyan light.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_iridescent_cocoon",
+      "category": "prop",
+      "col": 1,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A disturbingly large, oblong cocoon hanging from a small branch. Its surface has a chitinous, iridescent sheen that shifts between twilight teal and luminous magenta.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_ruin_sarcophagus_open",
+      "category": "prop",
+      "col": 2,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A large, broken stone sarcophagus from the ancient ruins, its lid pushed aside. It's filled with stagnant, dark rainwater where a layer of glowing cyan algae grows.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_stacked_ruin_stones",
+      "category": "prop",
+      "col": 3,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A small, makeshift cairn of three flat, mossy ruin stones, stacked unevenly. The stones are pale white, with chipped edges and patches of deep green moss.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_crystal_shard_barrier",
+      "category": "prop",
+      "col": 4,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A single, large shard of multi-faceted crystal, jutting upwards from the ground at a sharp angle. It refracts ambient light into small, glittering flecks of cyan and magenta.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_crumbling_ruin_wall",
+      "category": "prop",
+      "col": 5,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A waist-high section of a crumbling barrier wall from the ruins. It consists of three large, moss-covered pale stone blocks, with a small, magenta mushroom growing in a crack on the front.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_glowing_ground_glyph",
+      "category": "prop",
+      "col": 6,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A swirling, intricate glyph with Art Nouveau-style curves is carved into a single, flat paving stone. The lines of the glyph glow with a faint, ancient gold light.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_shattered_crystal_mosaic",
+      "category": "prop",
+      "col": 7,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A patch of ground where shattered fragments of ruin crystal have been embedded in the dark earth, creating a chaotic floor mosaic that glitters with reflected magical light.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_offering_pedestal",
+      "category": "prop",
+      "col": 0,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A waist-high, pale stone pedestal with a smooth, concave bowl carved into its top. The bowl is filled with the glittering, viscous liquid of the River of Stars.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_whispering_horn_flower",
+      "category": "prop",
+      "col": 1,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A strange plant with a large, phonograph-horn-shaped flower of deep verdant green. The mouth of the flower is aimed towards the viewer and emits a faint, magical hum.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_statue_horned_being",
+      "category": "prop",
+      "col": 2,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "The moss-covered bust of a graceful, horned being from a larger statue. Its serene face is partially obscured by thick, gnarled roots that wrap around its neck like a collar.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_fountain_moss_cascade",
+      "category": "prop",
+      "col": 3,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A broken, two-tiered ruin fountain made of pale stone. Instead of water, a cascade of thick, glowing verdant moss overflows from the top basin down to the larger bottom one.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_natural_mushroom_table",
+      "category": "prop",
+      "col": 4,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A very large, wide, flat-topped mushroom with a deep magenta cap, serving as a natural table. Several smaller, glowing cyan fungi are arranged neatly on its surface.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_giant_snail_shell",
+      "category": "prop",
+      "col": 5,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A massive, empty snail shell lying on the forest floor, large enough to be a small hiding spot. It has a beautiful spiral pattern that shimmers with iridescent cyan and teal hues.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_dormant_mossy_beast",
+      "category": "prop",
+      "col": 6,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A large, chittering insectoid creature, curled up and dormant. Its dark carapace is almost entirely covered by a layer of verdant moss, making it look like a strange, living boulder.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "prop_twisted_branch_rack",
+      "category": "prop",
+      "col": 7,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "The remains of a dead, silver-barked sapling. Its branches have twisted into elegant, repeating hooks. A few phosphorescent vines with magenta flowers are draped over them.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    }
+  ],
+  "sceneDescription": "Here is a detailed scene description for the theme: **\"Enchanted Forest\"**.\n\n### Scene: The Veridian Labyrinth\n\n---\n\n### 1. VISUAL IDENTITY\n\n*   **Primary Color Palette:**\n    *   Deep Verdant Green (#3E602B): The color of ancient, damp moss and the waxy leaves of oversized flora.\n    *   Twilight Teal (#0D4C5C): The base color for the deep shadows and the ambient glow of the forest floor.\n    *   Luminous Magenta (#8A2E6B): The primary color for bioluminescent fungi, glowing flower petals, and magical energy.\n*   **Secondary/Accent Colors:**\n    *   Pale Cyan (#9EF8EE) for glowing spores, ethereal sprites, and the light cast by magical flora.\n    *   Ancient Gold (#C1A574) for subtle patterns on ruined stonework and shimmering pollen motes.\n*   **Overall Mood and Atmosphere:** Ethereal and ancient. The mood is serene and mystical, yet holds a deep sense of mystery and potential danger. It feels alive, breathing, and watching.\n*   **Lighting Conditions:** Perpetual twilight. A colossal, dense canopy of interlocking, silver-barked trees blocks out most direct sunlight. The primary light sources are internal and magical: clusters of glowing mushrooms, pulsating plant life, and shimmering swarms of dust-sized sprites. Soft, hazy god-rays of cyan and magenta pierce the canopy in rare clearings.\n\n### 2. ARCHITECTURE\n\n*   **Building Styles and Materials:** The only structures are the crumbling ruins of a long-forgotten civilization, now fully integrated with the forest. The architecture is built from a pale, almost white stone that seems to faintly absorb the surrounding magical light. It’s a mix of weathered marble and a harder, unidentifiable material.\n*   **Structural Characteristics:** Organic and flowing. The ruins feature sweeping arches, curved walls, and broken spires that mimic the shapes of plants and bones. There are no sharp, 90-degree angles. Everything is worn smooth by time and covered in thick layers of moss.\n*   **Scale and Proportions:** The architecture is massive and cyclopean, built for beings much larger than the player character. A single fallen pillar can serve as a bridge across a chasm. Doorways are yawning arches tall enough for a giant to walk through.\n*   **Distinctive Architectural Features:** Faded, intricate carvings of swirling vines and celestial patterns can be seen on stone surfaces where the moss has worn thin. Broken, multi-faceted crystals are embedded in window frames, refracting the ambient light into tiny rainbows. Statues of graceful, horned beings are being slowly consumed by python-like roots.\n\n### 3. GROUND SURFACES\n\n*   **Road/Path Materials:** There are no formal roads, only winding desire paths of compacted, dark earth. These paths are often crisscrossed by thick, gnarled roots that the player must step over. Many paths are carpeted in a soft, glowing blue-green moss that puffs up little clouds of cyan spores with each footstep.\n*   **Walkable Urban Surfaces:** In areas with ruins, the ground is a mosaic of cracked and tilted flagstones. Many are missing, revealing the loamy soil and roots beneath. These stone floors are slick with moisture and overgrown with patches of deep green moss.\n*   **Decorative Terrain:** The forest floor is littered with smooth, river-worn stones of various sizes, all covered in moss. Piles of rubble from collapsed arches and walls create impassable barriers. Thickets of thorny, magenta-colored vines block certain areas.\n*   **Hazardous Areas:** Small, perfectly still pools of shimmering, mercury-like water dot the landscape. They look beautiful but may be toxic or have strange magical properties. Deep, shadow-filled chasms with glowing fungi lining their walls are also present.\n\n### 4. PROPS & OBJECTS\n\n*   **Street Furniture:** Instead of lamps, there are tall, slender fungi that grow in clusters, their caps pulsing with a soft, magenta light. Smooth, moss-covered fallen logs and crescent-shaped stone benches from the ruins serve as resting spots.\n*   **Infrastructure:** No modern infrastructure exists. Giant, exposed root systems act as natural barriers and walls. Thick curtains of hanging, phosphorescent vines function as doorways into hidden alcoves.\n*   **Vegetation and Natural Elements:** The flora is otherworldly.\n    *   **Canopy Trees:** Immense, silver-barked trees whose leaves are a dark, waxy green.\n    *   **Glimmerwood Fungi:** The primary light source. They grow in tiered clusters on trees and ruins, from hand-sized buttons to massive shelves five feet across.\n    *   **Bellflowers:** Large, drooping flowers with petals of deep purple that chime softly when the player passes by.\n    *   **Crystal Ferns:** Knee-high ferns whose fronds have a delicate, crystalline structure that glitters in the light.\n*   **Interactive/Atmospheric Objects:** Bulbous, pulsating plant pods that burst and release a cloud of harmless, sparkling gold spores when the player gets too close. Swarms of tiny, cyan sprites flutter around the Glimmerwood Fungi. Ethereal, translucent snails with glowing spiral shells slowly crawl up stone walls.\n*   **Debris and Environmental Details:** Fallen leaves the size of shields lie scattered on the ground. Shattered pieces of the ruin's crystal windows litter the base of walls. Empty, iridescent cocoons, disturbingly large, cling to the underside of giant mushroom caps.\n\n### 5. WORLD FLAVOR\n\n*   **Cultural or Era Influences:** The aesthetic blends the natural, flowing lines of Art Nouveau with a primeval, untouched wilderness. The ruins suggest a highly advanced magical civilization that lived in harmony with nature before disappearing.\n*   **Technology Level and Aesthetic:** Purely magical and organic. There is no metal, fire, or conventional technology. Light, structure, and life are all sustained by the innate magic of the forest.\n*   **Environmental Storytelling:** The sheer scale of the ruins and the size of some natural elements (leaves, cocoons) hint that the former inhabitants, and perhaps the current ones, were giants or possess immense power. The forest has not destroyed the ruins but rather reclaimed and incorporated them, suggesting a cycle of life and decay that spans millennia.\n*   **Unique Distinguishing Features:** The most memorable feature is the \"River of Stars\"—a slow-moving, shallow stream not of water, but of a viscous, dark liquid filled with glittering particles that look like a flowing galaxy. It emits a soft, musical hum and is a source of pure magical energy for the surrounding forest."
+}

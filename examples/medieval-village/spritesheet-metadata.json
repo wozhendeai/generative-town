@@ -1,0 +1,972 @@
+{
+  "theme": "Here is a detailed scene description for the theme",
+  "tileSize": 256,
+  "columns": 8,
+  "rows": 8,
+  "sprites": [
+    {
+      "id": "cobblestone_road_horizontal",
+      "category": "ground",
+      "col": 0,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a horizontal cobblestone road. The stones are rounded, grayish-brown, and unevenly sized. Bright green moss grows in the wider cracks between stones, and a single dark crack runs through a larger stone on the left.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "path",
+        "connects": [
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_road_vertical",
+      "category": "ground",
+      "col": 1,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a vertical cobblestone road. These stones are more rectangular and tightly packed than the horizontal version. A thin line of dark mud has collected along the eastern edge, and a few small, loose pebbles are scattered on top.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "path",
+        "connects": [
+          "north",
+          "south"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_corner_ne",
+      "category": "ground",
+      "col": 2,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a cobblestone road corner connecting paths from the south and west. The northeast quadrant is a patch of packed dirt with a few blades of grass. The cobblestones are worn smooth along the inner curve of the turn.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "north",
+          "east"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_corner_nw",
+      "category": "ground",
+      "col": 3,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a cobblestone road corner connecting paths from the south and east. The northwest quadrant is untamed grass with a small yellow wildflower. A slight depression in the center of the turn holds a tiny puddle of murky water.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "north",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_corner_se",
+      "category": "ground",
+      "col": 4,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a cobblestone road corner connecting paths from the north and west. The southeast quadrant is dirt and loose gravel. The cobblestones show a faint, dark rut from a wagon wheel turning the corner.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "south",
+          "east"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_corner_sw",
+      "category": "ground",
+      "col": 5,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a cobblestone road corner connecting paths from the north and east. The southwest quadrant is a patch of mossy earth with a single, brown fallen oak leaf. The stones are notably lighter grey on this tile.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "corner",
+        "connects": [
+          "south",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_intersection_4_way",
+      "category": "ground",
+      "col": 6,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a four-way cobblestone intersection. The stones in the center are the most worn down, appearing flatter and darker than the surrounding road tiles. Tufts of resilient weeds grow in the central meeting point of the cracks.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "intersection",
+        "connects": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "cobblestone_t_junction_south",
+      "category": "ground",
+      "col": 7,
+      "row": 0,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a cobblestone T-junction where a north-south road meets an east-west road. The southern road ends here. The stones are arranged to channel traffic east and west, showing wear patterns from turns.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "intersection",
+        "connects": [
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    {
+      "id": "flagstone_plaza_tile",
+      "category": "ground",
+      "col": 0,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a perfectly flat, neat square of grey flagstone. The stones are large and rectangular with very thin, clean gaps between them. The surface is clean, suitable for the area around the central well.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "packed_dirt_path",
+      "category": "ground",
+      "col": 1,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a solid tile of dark brown, hard-packed earth. The surface is mostly smooth from foot traffic, with a few embedded small stones and a faint, scuffed footprint visible in the center.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wildflower_grass_patch",
+      "category": "ground",
+      "col": 2,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a lush patch of mossy green grass. The tile is dotted with small, delicate white and yellow wildflowers, giving it a slightly untamed, natural look. The entire tile is covered in this texture.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "dirt_path_with_ruts",
+      "category": "ground",
+      "col": 3,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a packed dirt path, distinguished by two deep, parallel ruts running vertically through the tile, created by heavy wagon wheels. The dirt inside the ruts is darker and appears more compressed.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "muddy_patch_with_straw",
+      "category": "ground",
+      "col": 4,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a square of dark, wet-looking mud. A few scattered pieces of yellow straw are pressed into the surface, suggesting proximity to stables or livestock. The entire tile is mud.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "cobblestone_road_shattered",
+      "category": "ground",
+      "col": 5,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a cobblestone road tile where a central, large stone has been shattered into multiple pieces. The deep, dark cracks radiate from the center, and small fragments of stone litter the gaps.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "dense_moss_ground_cover",
+      "category": "ground",
+      "col": 6,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of ground completely covered in a thick, spongy layer of dark, mossy green moss. No dirt or grass is visible, only the rich, damp texture of the moss itself.",
+      "placement": {
+        "layer": "ground",
+        "walkable": true,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "clear_stream_bed",
+      "category": "ground",
+      "col": 7,
+      "row": 1,
+      "w": 1,
+      "h": 1,
+      "description": "A top-down view of a shallow, clear stream. The water is transparent with light ripples on the surface. Below, a sandy creek bed is visible, with several smooth, moss-covered grey and brown rocks.",
+      "placement": {
+        "layer": "ground",
+        "walkable": false,
+        "anchor": "top_left"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "stout_boar_tavern",
+      "category": "building",
+      "col": 0,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "The 'Stout Boar' tavern, a two-story half-timbered building. A jettied upper floor overhangs the ground floor. Dark oak beams, cream wattle-and-daub walls, and a steep roof of terracotta red tiles. A carved wooden sign of a boar's head hangs by the door. 3/4 view, shadow to bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "village_elders_house",
+      "category": "building",
+      "col": 2,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A well-kept, single-story house with a prominent, steeply-pitched thatched roof covered in mossy green thatch. The walls are half-timbered, and the windows are framed by distinctive terracotta red shutters. A small herb garden is visible at its base. 3/4 view, shadow to bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "commoners_thatched_cottage",
+      "category": "building",
+      "col": 4,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "A small, slightly crooked one-story cottage. The walls are wattle-and-daub between dark timber frames. The thick, brown thatched roof sags slightly in the middle. It has a single small window and a simple plank door. 3/4 view, shadow to bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "blacksmiths_open_forge",
+      "category": "building",
+      "col": 6,
+      "row": 2,
+      "w": 2,
+      "h": 2,
+      "description": "An open-air blacksmith's workshop with a tall, soot-stained stone chimney. The forge area is made of grey stone and contains glowing orange embers. A simple slanted wooden roof covers the workspace. 3/4 view, shadow to bottom-right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "hanging_iron_tavern_lantern",
+      "category": "prop",
+      "col": 0,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A black wrought iron lantern with dusty glass panels, containing a single flickering candle flame. It hangs from a simple, curved iron hook. It casts a soft shadow towards the bottom right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "terracotta_water_pitcher",
+      "category": "prop",
+      "col": 1,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A small, reddish-brown terracotta pitcher with a rounded body and a single curved handle. It has a slight chip on its flared rim and is sitting on the ground, casting a small shadow.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "heavy_oak_bench",
+      "category": "prop",
+      "col": 2,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A heavy, hand-carved bench made of dark oak. It has two thick, solid legs and a simple backrest. The wood grain is prominent, and the edges are visibly worn and smooth from use.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "village_notice_board",
+      "category": "prop",
+      "col": 3,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A tall, weathered oak post supporting a large, dark wooden board. Three pieces of tattered, yellowed parchment are nailed to its surface with iron tacks. It casts a long shadow.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "blacksmiths_anvil_on_stump",
+      "category": "prop",
+      "col": 4,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A dark grey iron anvil with a horn and a flat face, showing small nicks and scratches from use. It is mounted securely on a thick, dark brown oak tree stump as its base.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wooden_horse_trough",
+      "category": "prop",
+      "col": 5,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A long, rectangular water trough for horses, constructed from weathered oak planks held together by two dark iron bands. It is half-filled with still, greenish water.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "central_stone_well",
+      "category": "prop",
+      "col": 6,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A wide, circular well made of grey fieldstones. Four sturdy oak posts support a small, peaked roof covered in terracotta red tiles. A thick rope is coiled around a wooden crank handle mechanism.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wall_torch_sconce_unlit",
+      "category": "prop",
+      "col": 7,
+      "row": 4,
+      "w": 1,
+      "h": 1,
+      "description": "A black wrought iron torch holder, or sconce, designed to be mounted on a wall. It has a circular grip and a decorative curl at the bottom. An unlit torch made of wood and wrapped cloth rests inside.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "young_oak_sapling",
+      "category": "prop",
+      "col": 0,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A slender oak sapling, about half the player's height, with a small cluster of vibrant green leaves at its top. A thin wooden stake is tied loosely to its trunk with a piece of twine for support.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wild_berry_shrub",
+      "category": "prop",
+      "col": 1,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A dense, roundish bush with dark green leaves. Peeking out from between the leaves are several small clusters of bright red berries.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "window_box_with_geraniums",
+      "category": "prop",
+      "col": 2,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A rectangular window box made of dark, weathered wood. It's filled with dark soil and is overflowing with vibrant red geranium flowers and their broad green leaves.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "scattered_fallen_leaves",
+      "category": "prop",
+      "col": 3,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A small, loose scattering of fallen oak leaves in shades of brown, muted yellow, and orange, lying on the ground.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "mossy_fieldstone_single",
+      "category": "prop",
+      "col": 4,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A single, rounded grey fieldstone, about knee-high. The top surface is covered in a patch of thick, bright green moss.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "large_lichen_covered_boulder",
+      "category": "prop",
+      "col": 5,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A large, irregularly shaped grey boulder, almost as tall as the player. It has a craggy texture with several deep fissures and is covered in patches of pale green and grey lichen.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "muddy_rain_puddle",
+      "category": "prop",
+      "col": 6,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "An irregular-shaped puddle of murky brown water sitting in a depression in the ground. The edges are soft mud, and the surface has a slight sheen.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "tree_stump_with_mushrooms",
+      "category": "prop",
+      "col": 7,
+      "row": 5,
+      "w": 1,
+      "h": 1,
+      "description": "A low, weathered oak tree stump with visible growth rings on its flat top. A small cluster of three brown-capped mushrooms is growing from its base on the south side.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wooden_storage_crate",
+      "category": "prop",
+      "col": 0,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A sturdy, square crate made of weathered, light brown wooden planks. It is nailed shut, and the wood grain is clearly visible.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "oak_barrel_iron_bands",
+      "category": "prop",
+      "col": 1,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A classic warm oak brown barrel, slightly wider in the middle. It is held together by two dark grey, rusty iron bands. The top is a flat, sealed wooden circle.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "two_wheeled_hay_cart",
+      "category": "prop",
+      "col": 2,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "An empty, two-wheeled wooden cart with slatted sides and two long handles resting on the ground. Its large, spoked wooden wheels show signs of heavy use.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "stacked_chopped_firewood",
+      "category": "prop",
+      "col": 3,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A neat, rectangular stack of chopped firewood logs. The cut ends show the rings of the wood, while the sides show the rough, dark brown bark. The pile is about waist-high.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "horse_hitching_post",
+      "category": "prop",
+      "col": 4,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A single, thick, dark wooden post driven into the ground, standing about chest-high. It is worn smooth at the top and has a large, rusty iron ring bolted to the side.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wattle_fence_section",
+      "category": "prop",
+      "col": 5,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A short, straight section of wattle fence, about four feet high. Thin, flexible branches are woven horizontally between three upright wooden stakes.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wooden_plank_bridge",
+      "category": "prop",
+      "col": 6,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A single, very thick, wide plank of weathered, dark grey wood, laid flat on the ground to cross a small gap or stream.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "burlap_sack_of_potatoes",
+      "category": "prop",
+      "col": 7,
+      "row": 6,
+      "w": 1,
+      "h": 1,
+      "description": "A light brown burlap sack, lumpy and full, tied shut at the top with a piece of rope. A small tear near the bottom has allowed a bit of dirt to spill out.",
+      "placement": {
+        "layer": "object",
+        "walkable": true,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "apple_basket_on_stool",
+      "category": "prop",
+      "col": 0,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A simple, three-legged wooden stool with a round top. A woven wicker basket filled to the brim with shiny red apples sits upon it.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "carved_stone_waymarker",
+      "category": "prop",
+      "col": 1,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A waist-high, moss-covered standing stone. An arrow has been crudely carved into its face, pointing towards the right.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "crumbled_statue_pedestal",
+      "category": "prop",
+      "col": 2,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A square, grey stone pedestal, heavily weathered and covered in ivy. On top, only a pair of broken, stone-carved boots remain from a long-lost statue.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "stone_carved_water_spout",
+      "category": "prop",
+      "col": 3,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A simple water feature consisting of a low stone basin being filled by a trickle of water flowing from a crudely carved lion's head spout, set into a small stone wall.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "empty_market_stall",
+      "category": "prop",
+      "col": 4,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A simple market stall consisting of a wooden countertop and four posts supporting a worn, faded cream canvas awning that provides shade.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "wooden_wheelbarrow_dirt",
+      "category": "prop",
+      "col": 5,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A rustic, single-wheeled wooden wheelbarrow, resting on its two front legs. The basin is stained and contains a small amount of leftover dirt and a few weeds.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "parked_ox_cart_heavy",
+      "category": "prop",
+      "col": 6,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A large, four-wheeled wooden ox cart with high sideboards, parked and unhitched. The wood is dark and reinforced with iron braces, and its large wheels are caked in dried mud.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    },
+    {
+      "id": "tool_rack_farming",
+      "category": "prop",
+      "col": 7,
+      "row": 7,
+      "w": 1,
+      "h": 1,
+      "description": "A freestanding wooden rack made of dark oak. A wooden pitchfork, a shovel, and a rake are leaning neatly against it.",
+      "placement": {
+        "layer": "object",
+        "walkable": false,
+        "anchor": "bottom_center"
+      },
+      "connectivity": {
+        "type": "none",
+        "connects": []
+      }
+    }
+  ],
+  "sceneDescription": "Here is a detailed scene description for the theme: **\"medieval village\"**.\n\n---\n\n### Scene: Oakhaven Village - Market Square\n\n### 1. VISUAL IDENTITY\n\n*   **Primary Color Palette:**\n    *   Warm Oak Brown (`#A06B3E`): Dominant color for wooden structures, beams, doors, and fences.\n    *   Mossy Green (`#6A823B`): For thatch, ground cover, and foliage.\n    *   Cobblestone Grey (`#8D8D8B`): For paths, stone foundations, and the central well.\n*   **Secondary/Accent Colors:**\n    *   Terracotta Red (`#B85C5C`): Used for clay roof tiles on more important buildings (like the tavern), flower pots, and faded paint on window shutters.\n    *   Wattle Cream (`#E1D4A7`): The color of the plaster between the dark wooden beams of the houses.\n*   **Overall Mood and Atmosphere:** Cozy, rustic, and lived-in. The village feels peaceful but bustling with quiet activity. It's a place of respite, a warm pocket of civilization nestled against the wilderness. The air feels clean and smells of woodsmoke and damp earth.\n*   **Lighting Conditions:** Late afternoon, the \"golden hour.\" The sun is low in the sky, casting long, soft shadows from the west. Sunlight filters through the leaves of a massive central tree, creating dappled light on the ground. Windows of the tavern and some homes have a warm, inviting yellow glow. Lanterns are unlit, save for one flickering iron lantern hanging from a hook outside the tavern entrance.\n\n### 2. ARCHITECTURE\n\n*   **Building Styles and Materials:** Predominantly half-timbered construction. Buildings have dark, slightly crooked oak beams forming their skeletons, with rough, cream-colored wattle-and-daub plaster filling the gaps. Lower foundations are made of rough-hewn, irregular grey fieldstone. Roofs are a mix of thick, mossy brown thatch and, for more prosperous buildings like the inn, overlapping terracotta tiles.\n*   **Structural Characteristics:** Buildings are organic and slightly asymmetrical, showing their age. Many feature jettied upper floors that overhang the ground floor, creating covered areas along the street. Rooflines are steep and pitched. No two buildings are identical; some lean slightly, others have additions that look cobbled on over time.\n*   <strong>Scale and Proportions:</strong> Buildings are modestly scaled, typically one or two stories high, feeling approachable rather than imposing. A standard two-story house is about 1.5 times the height of the player character. Doorways are low and rectangular, requiring a tall hero to duck slightly. Windows are small, single-pane affairs with thick wooden frames.\n*   **Distinctive Architectural Features:** The \"Stout Boar\" Tavern is the largest structure, marked by a heavy, carved wooden sign depicting a roaring boar's head. The Blacksmith's workshop is an open-air structure with a stone forge and a tall, soot-stained chimney. The village elder’s home is distinguished by its neatly painted red shutters and a small, well-tended herb garden in the front.\n\n### 3. GROUND SURFACES\n\n*   **Road/Path Materials:** The main thoroughfare through the square is a well-worn, uneven cobblestone path. The stones are rounded and vary in size and shade of grey. Tufts of vibrant green moss and small, resilient weeds grow in the cracks between them.\n*   **Walkable Urban Surfaces:** Dirt paths, packed down by foot traffic, branch off the main cobblestone road towards individual houses. The area directly around the central well is paved with flatter, more uniform flagstones, creating a small, clean plaza.\n*   **Decorative Terrain:** Patches of untamed grass with small white and yellow wildflowers dot the edges of the village square. Small, neat piles of chopped firewood are stacked against the walls of several homes. A few fallen leaves are scattered across the cobblestones.\n*   **Hazardous Areas:** A small, clear stream trickles along the northern edge of the scene, crossed by a simple, sturdy-looking wooden plank bridge. The water is shallow and not a true hazard, with smooth, mossy rocks visible on the creek bed.\n\n### 4. PROPS & OBJECTS\n\n*   **Street Furniture:** A few heavy, hand-carved wooden benches are placed near the central tree. A public notice board, made of a large slab of dark wood, is covered in tattered pieces of parchment and nailed to a post.\n*   **Infrastructure:** The centerpiece of the square is a wide, circular stone well with a wooden roof held up by four posts and covered in the same terracotta tiles as the tavern. It features a thick rope coiled around a wooden crank mechanism. Several large, empty water troughs for horses and livestock are nearby.\n*   **Vegetation and Natural Elements:** A massive, ancient oak tree dominates the center of the square. Its trunk is thick and gnarled, and its low-hanging branches provide a canopy of shade. Small, wooden flower boxes filled with red geraniums hang below the windows of most houses. Ivy creeps up the stone foundations of the older buildings.\n*   **Interactive/Atmospheric Objects:** An assortment of wooden barrels (some with iron bands, some without) and burlap sacks filled with grain are clustered near the tavern's side door. A rusty anvil sits outside the blacksmith's shop. A clothesline with white linen shirts and brown trousers hangs between two houses, gently swaying. Several chickens can be seen pecking at the dirt paths.\n\n### 5. WORLD FLAVOR\n\n*   **Cultural or Era Influences:** Draws from a romanticized, high-fantasy vision of Northern European medieval life. It feels grounded and functional, but clean and idyllic enough to be the hero's starting town.\n*   **Technology Level and Aesthetic:** Early medieval technology. Everything is handcrafted from wood, stone, and iron. There is no magic immediately visible, but the ancient oak tree feels like it could hold some hidden significance. Tools are simple and robust.\n*   **Environmental Storytelling:** The deep ruts in the dirt paths leading out of town suggest frequent wagon traffic to a nearby forest or quarry. A \"Help Wanted: Wyvern Troubles\" notice on the public board hints at nearby dangers and potential quests. The well-kept flower boxes show that the villagers take pride in their homes, despite the rustic setting.\n*   **Unique Distinguishing Features:** The combination of the colossal, ancient oak tree as the village centerpiece and the specific, selective use of terracotta red tiles makes Oakhaven visually distinct from other generic medieval villages. It's \"the village with the giant tree and the red roofs.\""
+}

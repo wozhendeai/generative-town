@@ -2,7 +2,8 @@
 	"scripts": {
 		"design": "tsx src/agent/index.ts design",
 		"plan": "tsx src/agent/index.ts plan",
-		"render": "tsx src/agent/index.ts render"
+		"render": "tsx src/agent/index.ts render",
+		"demo": "tsx src/agent/index.ts design \"enchanted forest\" && tsx src/agent/index.ts plan"
 	},
 	"dependencies": {
 		"@ai-sdk/google": "^2.0.43",
